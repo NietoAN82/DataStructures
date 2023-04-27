@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -9,6 +9,8 @@
 
   <ItemGroup>
     <Compile Remove="Arrays.cs" />
+    <Compile Remove="NewFolder\Arrays.cs" />
+    <Compile Remove="NewFolder\Lists.cs" />
   </ItemGroup>
 
   <ItemGroup>
